@@ -12,9 +12,7 @@ const AboutMe = () => {
                     />
                 </div>
                 <div className="header__block_right">
-                    <h2 className="main__h2" id="about-me">
-                        Обо мне
-                    </h2>
+                    <h2 className="main__h2">Обо мне</h2>
                     <p className="header__p">
                         Меня зовут Мусулманкул, мне 19 лет. Я живу в городе
                         Бишкек, Кыргызстан.
@@ -24,7 +22,7 @@ const AboutMe = () => {
             <main>
                 <div className="main__block_1">
                     <h2 className="main__h2">Автобиография</h2>
-                    <p className="main__p" id="main__p_2">
+                    <p className="main__p">
                         Я родился 21 марта 2006 года, в Ноокате, Ошская область.
                         Прожил 6 лет в Ноокате, потом переехал в Москву где
                         отучился в школе 1 год. Соскучился по Кыргызстану, так
@@ -36,9 +34,7 @@ const AboutMe = () => {
                 </div>
                 <div className="main__block_2">
                     <div className="main__block_2_inner">
-                        <h2 className="main__h2" id="main__block_2_h2">
-                            Данное время
-                        </h2>
+                        <h2 className="main__h2">Данное время</h2>
                         <p className="main__p">
                             В данный момент я закончил школу. Очень хорошо знаю
                             английский язык, читал книги про маркетинг а также
@@ -53,7 +49,7 @@ const AboutMe = () => {
                         alt=""
                     />
                 </div>
-                <div id="skills" className="main__block_3">
+                <div className="main__block_3">
                     <h2>Мои скиллы:</h2>
                 </div>
                 <div className="main__skills">
@@ -61,7 +57,7 @@ const AboutMe = () => {
                         <p className="skills__text">Javasript</p>
                         <img
                             className="progress__bar"
-                            src="/images/skill-30-removebg-preview.png"
+                            src="/images/skill-80-removebg-preview.png"
                             alt=""
                         />
                     </div>
@@ -100,9 +96,9 @@ const AboutMe = () => {
                     <div className="`">
                         <h2 className="main__h2">Мои цели:</h2>
                         <p className="main__p">
-                            Хочу стать strong middle frontend developers и жить
-                            в европе. Где-нибудь в Баварии. А также хочется
-                            найти хорошую девушку, а то их нету вообще
+                            Хочу стать senior frontend developer и жить в
+                            европе. Где-нибудь в Баварии. А также хочется найти
+                            хорошую девушку.
                             <span className="main__p">
                                 P.S. На фото замок Нойшвайнштайн, который я
                                 очень хочу посетить.
