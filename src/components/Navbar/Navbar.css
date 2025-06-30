@@ -1,17 +1,21 @@
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    gap: 100px;
     margin-bottom: 50px;
+    margin-top: 20px;
+}
+.navbar-logo {
+    width: 60px;
+    height: 60px;
 }
 .logo {
-    width: 5%;
-    margin-left: 20px;
+    width: 100%;
 }
 .navbar__list {
     display: flex;
     list-style-type: none;
-    width: 50%;
     margin: 0;
     justify-content: start;
     gap: 60px;
@@ -25,4 +29,7 @@
 .navbar__item > a:hover {
     color: cyan;
     transition: 0.8s;
+}
+.navbar__item .active {
+    color: cyan;
 }

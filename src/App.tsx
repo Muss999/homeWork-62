@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Contacts from "./components/Contacts/Contacts";
@@ -8,9 +9,13 @@ const App = () => {
     return (
         <div className="container">
             <Navbar />
-            <Home />
-            <AboutMe />
-            <Contacts />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about-me" element={<AboutMe />} />
+                <Route path="/contacts" element={<Contacts />} />
+                <Route path="/" element={<Home />} />
+                <Route path="*" element={<h1>Not Found</h1>} />
+            </Routes>
         </div>
     );
 };
